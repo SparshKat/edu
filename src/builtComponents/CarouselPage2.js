@@ -34,6 +34,7 @@ function CarouselPage2() {
           </Col>
         </Row>
       </Container>
+      <br />
     </>
   );
 }

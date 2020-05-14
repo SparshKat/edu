@@ -14,6 +14,7 @@ function ControlledCarousel() {
     };
   
     return (
+      <>
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
@@ -53,6 +54,8 @@ function ControlledCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <br />
+      </>
     );
   }
   

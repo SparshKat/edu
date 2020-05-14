@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Header() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" style={{ backgroundColor: "rgb(191, 2, 65)" }}>
       <Container>
         <Navbar.Brand href="#home">Sarthak Samwad</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

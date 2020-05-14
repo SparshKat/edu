@@ -11,7 +11,7 @@ import BlogPage from './builtComponents/BlogPage'
 import CoursePages from './builtComponents/CoursePages'
 import PhonePage from './builtComponents/PhonePage'
 import FooterPage from './builtComponents/FooterPage'
-// import
+import MapPage from './builtComponents/MapPage'
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         <br />
         <br />
         <PhonePage />
-        {/* <MapPage /> */}
+        <MapPage />
       </Container>
       <FooterPage />
      

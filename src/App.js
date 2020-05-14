@@ -27,7 +27,10 @@ function App() {
         <br />
         <br />
         <PhonePage />
-        <MapPage />
+        <div className="greyIt">
+          <MapPage />
+        </div>
+        
       </Container>
       <FooterPage />
      

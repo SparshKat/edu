@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../assets/custom.scss"
 import imgPhone from "../assets/images/iPhone.png"
 import appleImg from '../assets/images/appleStore.png'
+import playImg from '../assets/images/playStore.png'
 
 function PhonePage() {
     return (
@@ -32,7 +33,7 @@ function PhonePage() {
                         </Col>
                         <Col md="3">
                         <Image 
-                        src={appleImg} 
+                        src={playImg} 
                         fluid='true'
                         style={{position : 'relative'}}
                         rounded />  

@@ -1,25 +1,43 @@
 import React from 'react';
-import { Row, Nav } from 'react-bootstrap'
+import { Row, Nav, Container, Col } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Footer() {
     return (
-        <Nav fill variant="tabs" defaultActiveKey="/home" style={{ backgroundColor: "rgb(191, 2, 65)" }}>
-            <Nav.Item>
-                <Nav.Link href="/home">Active</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="link-1">Link</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="link-2">Link</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-                <Nav.Link eventKey="disabled" disabled>
-                    Disabled
-    </Nav.Link>
-            </Nav.Item>
-        </Nav>
+        <Container>
+            <Row>
+                
+                <Col md="5" sm="5">
+                <br />
+                
+                    <h4>Saarthak Samwad</h4>
+                    <p>
+                    Dedicated To Civil Services Exam (UPSC/BPSC/UPPCS)
+                            </p>
+                    {/* <br /> */}
+                    
+                </Col>
+            </Row>
+            <Row>
+                <Col md="4"></Col>
+                <Col md="5" sm="5">
+                <br />
+                <p>
+                    © 2019 Saarthak Samwad powered by Mobishaala</p>
+                    
+                </Col>
+                <Col md="3"></Col>
+            </Row>
+            {/* </Container> */}
+
+            {/* <Nav fill variant="tabs" defaultActiveKey="/home" className="backgroundBlood" >
+                <Nav.Item>
+                    <p>
+                    © 2019 Saarthak Samwad powered by Mobishaala</p>
+                   
+                </Nav.Item>
+            </Nav> */}
+        </Container>
     );
 }
 

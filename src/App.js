@@ -18,7 +18,6 @@ function App() {
     <>
       <HeaderPage />
       <br />
-      {/* <Container> */}
       <div className="greyIt">
         <WindowSlider />
       </div>
@@ -29,7 +28,7 @@ function App() {
       <br />
       <br />
       <div className="greyIt">
-      <NotifPage />
+        <NotifPage />
       </div>
       <br />
       <br />
@@ -37,7 +36,7 @@ function App() {
       <br />
       <br />
       <div className="greyIt">
-      <CoursePages />
+        <CoursePages />
       </div>
       <br />
       <br />
@@ -45,11 +44,9 @@ function App() {
       <div className="greyIt">
         <MapPage />
       </div>
-
-      {/* </Container> */}
-      <FooterPage />
-
-
+      <div className="backgroundBlood">
+        <FooterPage />Î
+      </div>
     </>
   );
 }

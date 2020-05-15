@@ -1,8 +1,7 @@
-import React, {Component} from 'react';
-import { Row, Nav, Button, Container, Col } from 'react-bootstrap'
+import React from 'react';
+import { Row,  Container, Col } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ReactPlayer from "react-player"
-import { Map, Marker, GoogleApiWrapper } from 'google-maps-react'
+import { Map, GoogleApiWrapper } from 'google-maps-react'
 // import HeaderPage from "./builtComponents/HeaderPage"
 import "../assets/custom.scss"
 
@@ -16,6 +15,7 @@ class MapPage extends React.Component {
         return (
             <>
                 <Container>
+                    <br />
                     <Row>
                         <Col md="5" sm="5">
                             <h2>Contact</h2>
@@ -48,6 +48,7 @@ class MapPage extends React.Component {
                                     lat: 35.5496939,
                                     lng: -120.7060049
                                 }}
+                                className= "blog"
                                 style={style}
                             />
                         </Col>

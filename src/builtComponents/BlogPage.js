@@ -7,7 +7,8 @@ import "../assets/custom.scss"
 function BlogPage() {
     return (
         <>
-            <Modal.Dialog size='lg'>
+            <h2>Blog</h2>
+            <Modal.Dialog className="blog" size='lg'>
                 <Modal.Header closeButton>
                     <Modal.Title> प्रस्तावित नागरिकता (संशोधन) विधेयक: भारतीय समाज और संस्कृति 
                         के ताने-बाने को बिखेरने पर आमदा सरकार</Modal.Title>

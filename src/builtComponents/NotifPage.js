@@ -11,15 +11,15 @@ function NotifPage() {
   return (
     <>
     <Row>
-    <Col md="5"><h2>Notifications</h2></Col>
+      <Col md="5"><h2>Notifications</h2></Col>
       
     </Row>
     <Row>
-      <Col md="5">
-      <Card style={{ width: '15em' }}>
+      <Col md="3">
+      <Card className="shadowIt" style={{ width: '16em' }}>
         <Card.Img variant="top" src={img1} />
         <Card.Body>
-          <Card.Title>Notification 1</Card.Title>
+          {/* <Card.Title>Notification 1</Card.Title> */}
           <Card.Text>
           Free Special Classes
           </Card.Text>
@@ -27,14 +27,11 @@ function NotifPage() {
         </Card.Body>
       </Card>
       </Col>
-      <Col md="2">
-
-      </Col>
-      <Col md="5">
-      <Card style={{ width: '15rem' }}>
+      <Col md="3">
+      <Card className="shadowIt" style={{ width: '15rem' }}>
         <Card.Img variant="top" src={img2} />
         <Card.Body>
-          <Card.Title>Notification 2</Card.Title>
+          {/* <Card.Title>Notification 2</Card.Title> */}
           <Card.Text>
           Free workshop with Topper's Meet
           </Card.Text>

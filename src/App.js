@@ -20,7 +20,9 @@ function App() {
       <br />
       <Container>
         <WindowSlider />
+        <div className="greyIt">
         <CarouselPage2 />
+        </div>
         <NotifPage />
         <BlogPage />
         <CoursePages />

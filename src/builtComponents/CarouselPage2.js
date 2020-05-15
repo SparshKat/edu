@@ -18,7 +18,7 @@ function CarouselPage2() {
               </Col>
               <Col md="5" sm="5">
                 <h2>Sudama Prasad Singh , BDO</h2>
-                <h3 className="Subtitle">BPSC 63 Interview Class</h3>
+                <h3 className="Subtitle"><strong>BPSC 63 Interview Class</strong></h3>
                 <p>
                   Sudama Prasad Singh sir's lecture on BDO for BPSC 63 Interview
             </p>
@@ -46,7 +46,7 @@ function CarouselPage2() {
               </Col>
               <Col md="5" sm="5">
                 <h2>हिंदी साहित्य (Optional)</h2>
-                <h3 className="Subtitle">BPSC 65 Mains</h3>
+                <h3 className="Subtitle"> <strong>BPSC 65 Mains</strong></h3>
                 <p>
                 Kumar Sarvesh sir's lecture on Ram Ki Shakti Pooja, हिंदी साहित्य (Optional) for BPSC 65 Mains
             </p>
@@ -74,7 +74,7 @@ function CarouselPage2() {
               </Col>
               <Col md="5" sm="5">
                 <h2>Polity</h2>
-                <h3 className="Subtitle">BPSC 65 Mains</h3>
+                <h3 className="Subtitle"><strong>BPSC 65 Mains</strong></h3>
                 <p>
                 Kumar Sarvesh sir's lecture on Polity for BPSC 65 Mains
             </p>

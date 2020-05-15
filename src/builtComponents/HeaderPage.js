@@ -5,20 +5,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Header() {
   return (
     <>
-      <Row>
+       <div className="backgroundBlood" >
+       <Container>
+       <Row>
         <Col>
-
-          <div className="backgroundBlood" >
-            <Container>
-              {/* <br /> */}
+           
+              
               <p style={{marginBottom : "0"}}>9818073460</p>
-              {/* <br /> */}
-            </Container>
-          </div>
-
+       
+           
 
         </Col>
       </Row>
+      </Container>
+       </div>
+      
       <Navbar bg="light" expand="lg" style={{ backgroundColor: "rgb(191, 2, 65)" }}>
         <Container>
           <Navbar.Brand href="#home">Sarthak Samwad</Navbar.Brand>

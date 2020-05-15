@@ -28,15 +28,6 @@ function Footer() {
                 </Col>
                 <Col md="3"></Col>
             </Row>
-            {/* </Container> */}
-
-            {/* <Nav fill variant="tabs" defaultActiveKey="/home" className="backgroundBlood" >
-                <Nav.Item>
-                    <p>
-                    © 2019 Saarthak Samwad powered by Mobishaala</p>
-                   
-                </Nav.Item>
-            </Nav> */}
         </Container>
     );
 }

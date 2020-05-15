@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col ,Image, Container} from 'react-bootstrap'
+import { Row, Col, Image, Container } from 'react-bootstrap'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,40 +14,40 @@ function PhonePage() {
             <Row>
                 <Col md="6">
                     <Row>
-                    <Col md="6" sm="6">
-            <h2>Sudama Prasad Singh , BDO</h2>
-            <h3 className="Subtitle">BPSC 63 Interview Class</h3>
-            <p>
-            Sudama Prasad Singh sir's lecture on BDO for BPSC 63 Interview
-            </p>
-            {/* <Button>JOIN CLASSES</Button> */}
-          </Col>
+                        <Col md="6" sm="6">
+                            <h2>Join Classes</h2>
+                            <h3 className="Subtitle"><strong>Download <span style={{ color: "rgb(191, 2, 65)" }}>Mobishaala</span> App</strong></h3>
+                            <p>
+                                <strong>Use Institue code<span style={{ color: "rgb(191, 2, 65)" }}> SASA9090</span></strong>
+                            </p>
+                            {/* <Button>JOIN CLASSES</Button> */}
+                        </Col>
                     </Row>
                     <Row>
                         <Col md="3">
-                        <Image 
-                        src={appleImg} 
-                        fluid='true'
-                        style={{position : 'relative'}}
-                        rounded />  
+                            <Image
+                                src={appleImg}
+                                fluid='true'
+                                style={{ position: 'relative' }}
+                                rounded />
                         </Col>
                         <Col md="3">
-                        <Image 
-                        src={playImg} 
-                        fluid='true'
-                        style={{position : 'relative'}}
-                        rounded />  
+                            <Image
+                                src={playImg}
+                                fluid='true'
+                                style={{ position: 'relative' }}
+                                rounded />
                         </Col>
-                        
+
                     </Row>
 
                 </Col>
                 <Col md="6">
-                    <Image 
-                    src={imgPhone} 
-                    fluid='true'
-                    style={{position : 'relative'}}
-                    rounded />
+                    <Image
+                        src={imgPhone}
+                        fluid='true'
+                        style={{ position: 'relative' }}
+                        rounded />
                 </Col>
             </Row>
 

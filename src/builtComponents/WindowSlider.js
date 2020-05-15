@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Carousel } from 'react-bootstrap'
+import {Carousel,Container } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import img1 from "../assets/images/window1.png"
 import img2 from "../assets/images/window2.jpg"
@@ -14,7 +14,8 @@ function ControlledCarousel() {
     };
   
     return (
-      <>
+      <Container>
+      <br />
       <Carousel showArrows={true} activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
@@ -55,7 +56,7 @@ function ControlledCarousel() {
         </Carousel.Item>
       </Carousel>
       <br />
-      </>
+      </Container>
     );
   }
   

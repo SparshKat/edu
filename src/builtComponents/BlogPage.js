@@ -1,12 +1,12 @@
 import React from 'react';
-import { Button, Modal } from 'react-bootstrap'
+import { Button, Modal,Container } from 'react-bootstrap'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../assets/custom.scss"
 function BlogPage() {
     return (
-        <>
+        <Container>
             <h2>Blog</h2>
             <Modal.Dialog className="blog" size='lg'>
                 <Modal.Header closeButton>
@@ -31,7 +31,7 @@ function BlogPage() {
                 </Modal.Footer>
             </Modal.Dialog>
             <br />
-        </>
+        </Container>
     );
 }
 

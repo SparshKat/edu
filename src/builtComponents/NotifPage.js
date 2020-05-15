@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card ,Row,Col} from 'react-bootstrap'
+import { Button, Card ,Row,Col,Container } from 'react-bootstrap'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,14 +9,15 @@ import img1  from "../assets/images/notif1.jpeg"
 
 function NotifPage() {
   return (
-    <>
+    <Container>
+      <br />
     <Row>
       <Col md="5"><h2>Notifications</h2></Col>
       
     </Row>
     <Row>
-      <Col md="3">
-      <Card className="shadowIt" style={{ width: '16em' }}>
+      <Col md="3" sm="12"  xs="12">
+      <Card className="shadowIt" style={{ width: '100%' }}>
         <Card.Img variant="top" src={img1} />
         <Card.Body>
           {/* <Card.Title>Notification 1</Card.Title> */}
@@ -27,8 +28,8 @@ function NotifPage() {
         </Card.Body>
       </Card>
       </Col>
-      <Col md="3">
-      <Card className="shadowIt" style={{ width: '15rem' }}>
+      <Col md="3"  sm="12"  xs="12">
+      <Card className="shadowIt" style={{ width: '100%' }}>
         <Card.Img variant="top" src={img2} />
         <Card.Body>
           {/* <Card.Title>Notification 2</Card.Title> */}
@@ -42,7 +43,7 @@ function NotifPage() {
       </Col>
     </Row>
     <br />
-    </>
+    </Container>
   );
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Nav, Button, Container, Card } from 'react-bootstrap'
+// import { Row, Nav, Button, Container, Card } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./assets/custom.scss"
 
@@ -18,24 +18,37 @@ function App() {
     <>
       <HeaderPage />
       <br />
-      <Container>
+      {/* <Container> */}
+      <div className="greyIt">
         <WindowSlider />
-        <div className="greyIt">
-        <CarouselPage2 />
-        </div>
-        <NotifPage />
-        <BlogPage />
-        <CoursePages />
-        <br />
-        <br />
-        <PhonePage />
-        <div className="greyIt">
-          <MapPage />
-        </div>
-        
-      </Container>
+      </div>
+      <br />
+      <br />
+      <CarouselPage2 />
+
+      <br />
+      <br />
+      <div className="greyIt">
+      <NotifPage />
+      </div>
+      <br />
+      <br />
+      <BlogPage />
+      <br />
+      <br />
+      <div className="greyIt">
+      <CoursePages />
+      </div>
+      <br />
+      <br />
+      <PhonePage />
+      <div className="greyIt">
+        <MapPage />
+      </div>
+
+      {/* </Container> */}
       <FooterPage />
-     
+
 
     </>
   );

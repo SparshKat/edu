@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/edu/static/css/main.321ccb05.chunk.css",
-    "main.js": "/edu/static/js/main.5d5ceb32.chunk.js",
-    "main.js.map": "/edu/static/js/main.5d5ceb32.chunk.js.map",
+    "main.js": "/edu/static/js/main.65b2c184.chunk.js",
+    "main.js.map": "/edu/static/js/main.65b2c184.chunk.js.map",
     "runtime-main.js": "/edu/static/js/runtime-main.2d4760ef.js",
     "runtime-main.js.map": "/edu/static/js/runtime-main.2d4760ef.js.map",
     "static/css/2.af3c1da9.chunk.css": "/edu/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.c16e25cb.chunk.js": "/edu/static/js/2.c16e25cb.chunk.js",
-    "static/js/2.c16e25cb.chunk.js.map": "/edu/static/js/2.c16e25cb.chunk.js.map",
+    "static/js/2.47c7394a.chunk.js": "/edu/static/js/2.47c7394a.chunk.js",
+    "static/js/2.47c7394a.chunk.js.map": "/edu/static/js/2.47c7394a.chunk.js.map",
     "index.html": "/edu/index.html",
-    "precache-manifest.151bd23518502975a573c9ab4ff4892f.js": "/edu/precache-manifest.151bd23518502975a573c9ab4ff4892f.js",
+    "precache-manifest.f259bf498f55ea1aef62989146b3a96a.js": "/edu/precache-manifest.f259bf498f55ea1aef62989146b3a96a.js",
     "service-worker.js": "/edu/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/edu/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.321ccb05.chunk.css.map": "/edu/static/css/main.321ccb05.chunk.css.map",
-    "static/js/2.c16e25cb.chunk.js.LICENSE.txt": "/edu/static/js/2.c16e25cb.chunk.js.LICENSE.txt",
+    "static/js/2.47c7394a.chunk.js.LICENSE.txt": "/edu/static/js/2.47c7394a.chunk.js.LICENSE.txt",
     "static/media/c1.jpg": "/edu/static/media/c1.8daf8ff8.jpg",
     "static/media/c2.jpg": "/edu/static/media/c2.b2662e08.jpg",
     "static/media/c3.jpg": "/edu/static/media/c3.f48a732d.jpg",
@@ -21,6 +21,7 @@
     "static/media/c5.jpg": "/edu/static/media/c5.2d1f4a16.jpg",
     "static/media/c6.jpg": "/edu/static/media/c6.e9d40704.jpg",
     "static/media/iPhone.png": "/edu/static/media/iPhone.b910dfc1.png",
+    "static/media/logo.png": "/edu/static/media/logo.42d4e1fe.png",
     "static/media/notif1.jpeg": "/edu/static/media/notif1.ab37af04.jpeg",
     "static/media/notif3.jpeg": "/edu/static/media/notif3.9cb95ab4.jpeg",
     "static/media/playStore.png": "/edu/static/media/playStore.f2f6f2b3.png",
@@ -30,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.2d4760ef.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.c16e25cb.chunk.js",
+    "static/js/2.47c7394a.chunk.js",
     "static/css/main.321ccb05.chunk.css",
-    "static/js/main.5d5ceb32.chunk.js"
+    "static/js/main.65b2c184.chunk.js"
   ]
 }

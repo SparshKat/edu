@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Nav, Container, Col } from 'react-bootstrap'
+import { Row, Container, Col } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Footer() {

@@ -7,11 +7,11 @@ import "../assets/custom.scss"
 
 class MapPage extends React.Component {
     render() {
-        const style = {
-            position : 'relative',
-            width: '100%', 
-            height: '250px'
-        }
+        // const style = {
+        //     // position : 'absolute',
+        //     width: '100%', 
+        //     height: '250px'
+        // }
         return (
             <>
                 <Container>
@@ -40,7 +40,8 @@ class MapPage extends React.Component {
                         </Col>
                         <Col md="1" sm="1">
                         </Col>
-                        <Col md="5" sm="5">
+                        <Col md="6" sm="12" xs="12">
+                            <div style={{position: 'relative', height: '50vh'}}>
                             <Map
                                 google={this.props.google}
                                 zoom={10}
@@ -49,8 +50,10 @@ class MapPage extends React.Component {
                                     lng: -120.7060049
                                 }}
                                 className= "blog"
-                                style={style}
+                                // style={style}
                             />
+                            </div>
+                            
                         </Col>
                     </Row>
                 </Container>
